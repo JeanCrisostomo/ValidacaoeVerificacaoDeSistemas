@@ -1,0 +1,334 @@
+{
+  "id": "6334ebe0-31f1-4b62-bde9-236e0008fa02",
+  "version": "2.0",
+  "name": "IFRS",
+  "url": "http://swiftweb.com.br/",
+  "tests": [{
+    "id": "c2ecae75-cdce-44d4-bea9-2c4d640092d4",
+    "name": "SSI",
+    "commands": [{
+      "id": "1b9c9766-cfbf-4772-aa9f-6ccb9b6b17ad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c317537-03e6-4888-950d-b758ab67e6bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "520x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fac3fe4c-f457-4920-9b16-b62395baac34",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-icon",
+      "targets": [
+        ["id=menu-icon", "id"],
+        ["css=#menu-icon", "css:finder"],
+        ["xpath=//a[@id='menu-icon']", "xpath:attributes"],
+        ["xpath=//ul[@id='lista-barra-brasil']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "584c4938-ecba-4ae1-a5d8-4cff86970f1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documentos",
+      "targets": [
+        ["linkText=Documentos", "linkText"],
+        ["css=.menu-servicos .item-132 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Documentos')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/index.php?option=com_content&view=article&id=275&Itemid=119')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Documentos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b59a4010-2bd2-493a-9f46-70877d2b17f6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.banneritem:nth-child(1)",
+      "targets": [
+        ["css=.banneritem:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div", "xpath:position"]
+      ],
+      "value": "198.5,279"
+    }, {
+      "id": "907588e3-e8e7-4290-93aa-2256807cecee",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.banneritem:nth-child(1)",
+      "targets": [
+        ["css=.banneritem:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div", "xpath:position"]
+      ],
+      "value": "198.5,279"
+    }, {
+      "id": "498a82ce-ae48-43f6-9400-fedb0d158db4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.banneritem:nth-child(1)",
+      "targets": [
+        ["css=.banneritem:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div", "xpath:position"]
+      ],
+      "value": "198.5,279"
+    }, {
+      "id": "bb167a54-43db-4886-bf18-640397c05e82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banneritem:nth-child(1)",
+      "targets": [
+        ["css=.banneritem:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f96746ab-3e14-44dc-a02b-0ada58811f65",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": "17.8125,6"
+    }, {
+      "id": "95453183-a6a8-4e70-b7ef-a01724059d1f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": "17.8125,6"
+    }, {
+      "id": "f3cb2d18-4a82-4f2a-9c6d-177c52074a37",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": "17.8125,6"
+    }, {
+      "id": "1ab62b48-762c-4363-9c44-db7f15c9db1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "347c5be4-1633-4493-b215-be1d5e72fc4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.subtitle > p:nth-child(3)",
+      "targets": [
+        ["css=.subtitle > p:nth-child(3)", "css:finder"],
+        ["xpath=//section[@id='content-section']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Se você está certo que o endereço informado está correto mas está encontrando um erro, por favor entre em contato.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecdf4e5f-a2a9-439f-9168-9601ba6cb428",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.subtitle > p:nth-child(3)",
+      "targets": [
+        ["css=.subtitle > p:nth-child(3)", "css:finder"],
+        ["xpath=//section[@id='content-section']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Se você está certo que o endereço informado está correto mas está encontrando um erro, por favor entre em contato.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e986c6b-a9ec-48ab-b4cc-cd12a13a42f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=contato",
+      "targets": [
+        ["linkText=contato", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'contato')]", "xpath:link"],
+        ["xpath=//section[@id='content-section']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/contato')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'contato')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7212",
+      "windowTimeout": 2000
+    }, {
+      "id": "3b51ed91-569d-4fb5-bd35-c735408696ae",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "133f6e6a-e4fb-40c3-904e-62929dc84b98",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7212}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7b69878-78e4-4e21-8b22-387d4e1a3979",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e810037-0ac5-42cb-8be2-da22b383508b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1ef36d5-9fdc-449a-b8bb-049846f53498",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": "CARGA HORÁRIA"
+    }]
+  }, {
+    "id": "4cae16ef-98b5-4743-8f82-d3b7eb1915da",
+    "name": "SSI2",
+    "commands": [{
+      "id": "eaacb01a-ad36-4306-b143-faa9537d7483",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "696f5679-b0f3-44bd-bade-15a420750fb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd024145-fce9-43e5-bf74-65dcaa1f7b05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=cursos",
+      "targets": [
+        ["linkText=cursos", "linkText"],
+        ["css=.active > p > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'cursos')])[2]", "xpath:link"],
+        ["xpath=//div[@id='banner-carousel-202']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.poa.ifrs.edu.br/index.php?option=com_content&view=article&id=2918&Itemid=471']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "775655cc-21fb-4382-9e5d-49e868edf76e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ensino:nth-child(3) > h2",
+      "targets": [
+        ["css=.ensino:nth-child(3) > h2", "css:finder"],
+        ["xpath=//section[@id='navigation-section']/nav[2]/h2", "xpath:idRelative"],
+        ["xpath=//nav[2]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71560ba0-fee1-491f-a40a-8a2f873de11b",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d33709-bc05-4432-b804-a48a4f0c6146",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//section[@id='content-section']/div/p[2]", "xpath:idRelative"],
+        ["xpath=//section/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Tente uma das páginas a seguir:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30fbc6bc-aa35-48db-b47f-495009924132",
+    "name": "Sephora",
+    "commands": [{
+      "id": "3b07f131-655c-494f-ae42-0b4a4e50dbdb",
+      "comment": "",
+      "command": "open",
+      "target": "http://swiftweb.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b2f048a-e734-47d3-8372-39e9ec9fe1a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=(//div[@id='row']/div[2]/div/div/h4)[2]",
+      "targets": [
+        ["xpath=(//div[@id='row']/div[2]/div/div/h4)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Jean Villanueva')]", "xpath:innerText"]
+      ],
+      "value": "Jean Villanueva"
+    }]
+  }],
+  "suites": [{
+    "id": "eaffa01f-a410-4abc-83c7-b61da52281f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2ecae75-cdce-44d4-bea9-2c4d640092d4"]
+  }],
+  "urls": ["http://www.poa.ifrs.edu.br/", "https://www.sephora.com.br/", "http://swiftweb.com.br/"],
+  "plugins": []
+}
